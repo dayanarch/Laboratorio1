@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
  */
 public class Login extends javax.swing.JFrame
 {
-    
+    String name;
     AdministrarUsuarios adm_usuarios; 
     /**
      * Creates new form Login
@@ -161,7 +161,7 @@ public class Login extends javax.swing.JFrame
 
     
     private void btn_RegistrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_RegistrarMouseClicked
-        Registrar jf_registrar = new Registrar("Loginnnnn");
+        Registrar jf_registrar = new Registrar("Login");
         jf_registrar.show();
     }//GEN-LAST:event_btn_RegistrarMouseClicked
 
