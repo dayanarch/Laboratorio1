@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
  */
 public class Login extends javax.swing.JFrame
 {
-    
+    String Dayana;
     AdministrarUsuarios adm_usuarios; 
     /**
      * Creates new form Login
