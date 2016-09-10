@@ -137,6 +137,11 @@ public class Login extends javax.swing.JFrame
                 btn_RegistrarMouseClicked(evt);
             }
         });
+        btn_Registrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_RegistrarActionPerformed(evt);
+            }
+        });
         getContentPane().add(btn_Registrar);
         btn_Registrar.setBounds(140, 260, 100, 23);
 
@@ -156,7 +161,7 @@ public class Login extends javax.swing.JFrame
 
     
     private void btn_RegistrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_RegistrarMouseClicked
-        Registrar jf_registrar = new Registrar("Login");
+        Registrar jf_registrar = new Registrar("Loginnnnn");
         jf_registrar.show();
     }//GEN-LAST:event_btn_RegistrarMouseClicked
 
@@ -210,6 +215,10 @@ public class Login extends javax.swing.JFrame
         txf_usuario.setText(txf_usuario.getText().toUpperCase(Locale.FRENCH));//convierte todos los caracteres a mayuscula
         
     }//GEN-LAST:event_txf_usuarioKeyReleased
+
+    private void btn_RegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegistrarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_RegistrarActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_Registrar;
