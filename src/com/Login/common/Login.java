@@ -19,8 +19,7 @@ import javax.swing.JOptionPane;
  */
 public class Login extends javax.swing.JFrame
 {
-    String name;
-    int 0;
+    
     AdministrarUsuarios adm_usuarios; 
     /**
      * Creates new form Login
